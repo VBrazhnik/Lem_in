@@ -8,14 +8,14 @@ The purpose of this project is to find paths from start room to end room and to 
 
 [`lem-in.en.pdf`](/lem-in.en.pdf) is the task file.
 
-**Features**
+### Features
 
 * Find all best paths in most cases
 * Move ants by found paths in an optimal way
 * Extended error messages
 * Verbose mode
 
-**How to run program?**
+### How to run program?
 
 ```
 ./lem-in < MAP_FILE
