@@ -41,14 +41,14 @@ Program has **verbose mode**. In this mode program will display paths which were
 
 Also this project has a visualizer.
 
-It was written with **SDL 2** library.
+It was written with **SDL2** library.
 
 **Prerequisites**
 
 * `brew install SDL2`
 * `brew install SDL2_ttf`
 * `brew install SDL2_image`
-* `brew install sdl2_gfx`
+* `brew install SDL2_gfx`
 
 **How to run visualizer?**
 
