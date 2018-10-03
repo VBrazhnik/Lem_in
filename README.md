@@ -8,6 +8,8 @@ The purpose of this project is to find paths from start room to end room and to 
 
 [`lem-in.en.pdf`](/lem-in.en.pdf) is the task file.
 
+You can check [wiki-page](../../wiki/Algorithm) if you want to read description of created algorithm.
+
 ### Features
 
 * Find all best paths in most cases
