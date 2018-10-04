@@ -8,7 +8,7 @@ The purpose of this project is to find paths from start room to end room and to 
 
 [`lem-in.en.pdf`](/lem-in.en.pdf) is the task file.
 
-You can check [wiki-page](../../wiki/Algorithm) if you want to read description of created algorithm.
+_**You can check [wiki-page](../../wiki/Algorithm) if you want to read description of created algorithm.**_
 
 ### Features
 
@@ -57,6 +57,10 @@ It was written with **SDL2** library.
 ```
 
 ![Lem-in visualizer_(Main_screen)](images/lem-in_vs_(main_screen).png)
+
+**Vector files**
+
+Vector files (.ai) of images, that were used as textures, you can find in [resources/vector](tree/master/resources/vector) folder.
 
 ### How to clone?
 
