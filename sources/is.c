@@ -58,8 +58,8 @@ t_bool			is_room(char *str)
 	if (ft_strsplit_len(strsplit) == 3)
 	{
 		if (is_room_name(strsplit[0])
-			&& ft_isint(strsplit[1])
-			&& ft_isint(strsplit[2]))
+			&& ft_isint(strsplit[1], true)
+			&& ft_isint(strsplit[2], true))
 			result = true;
 	}
 	ft_strsplit_free(&strsplit);
@@ -83,7 +83,7 @@ t_bool			is_location(t_lem_in *lem_in, char *str)
 	if (!(room_name = ft_strsub(dash + 1, 0, ft_strlen(dash + 1))))
 		terminate(ERR_LOC_PARSING);
 	if (find_room(lem_in, room_name)
-		&& ft_isint(ant_number)
+		&& ft_isint(ant_number, true)
 		&& ft_atoi(ant_number) >= 1
 		&& ft_atoi(ant_number) <= lem_in->ants_start)
 		result = true;

@@ -17,7 +17,7 @@ void	parse_ants(t_lem_in *lem_in, t_line **current, t_line **lines)
 {
 	if (*current || ((*current) = read_next_line(lines)))
 	{
-		if (ft_isint((*current)->content))
+		if (ft_isint((*current)->content, true))
 		{
 			lem_in->ants_start = ft_atoi((*current)->content);
 			(*current) = NULL;
