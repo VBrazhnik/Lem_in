@@ -23,5 +23,5 @@ void	vs_terminate(t_vs *vs, const char *s)
 		ft_putendl_fd(s, 2);
 	else
 		perror(s);
-	exit(0);
+	exit(1);
 }
