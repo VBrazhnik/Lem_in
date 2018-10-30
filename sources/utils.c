@@ -21,5 +21,5 @@ void	terminate(char *s)
 		ft_putendl_fd(s, 2);
 	else
 		perror(s);
-	exit(0);
+	exit(1);
 }
